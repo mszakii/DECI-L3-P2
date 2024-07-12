@@ -4,9 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wrangle Report 🧾</title>
-    <link rel="stylesheet" href="/assets/master.css">
+    <link rel="stylesheet" href="/assets/master.css" />
   </head>
   <body>
-    <header>WeRateDogs 🐶 Twitter EDA 📊 2015 - 2017 📅</header>
+    <header>
+      <div class="parent">
+        <nav>
+          <a href="#intro">Introduction</a>
+          <a href="#challenges">Trends</a>
+          <a href="#eda">EDA</a>
+          <a href="#conclusion">Conclusion</a>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="parent">
+        <h1>WeRateDogs 🐶 Twitter EDA 📊 2015 - 2017 📅</h1>
+        <h2 id="#intro">Introduction</h2>
+        <div class="title">
+          The WeRateDogs data analysis project was an insightful yet challenging
+          endeavor, particularly in the phases of assessing and cleaning the
+          data. The primary hurdles were the variability in data quality and the
+          diverse formats in which the information was presented.
+        </div>
+        <h2 id="challenges">Challenges</h2>
+        <div class="title">
+          The most challenging phase in this project was the cleaning step #06,
+          which involved consolidating the doggo, floofer, pupper, and puppo
+          columns into a single column named characteristic. This task was
+          particularly demanding due to the presence of numerous NaN values and
+          the introduction of duplicates after employing the pd.melt() function.
+          Ensuring the accuracy of the name column by filtering out non-real
+          names embedded within text added another layer of complexity. The
+          assessment process, both visual and programmatic, was crucial in
+          identifying these issues and ensuring data quality. Developing robust
+          scripts to automate repetitive cleaning tasks was essential. Despite
+          being time-consuming, these scripts were vital for maintaining data
+          integrity, allowing for efficient and consistent data processing.
+          Ultimately, overcoming these challenges in the data cleaning phase was
+          instrumental in ensuring the reliability of the dataset. The
+          meticulous efforts in addressing NaN values, duplicates, and
+          inaccurate names laid a solid foundation for meaningful analysis,
+          leading to accurate insights and a deeper understanding of the
+          WeRateDogs data.
+        </div>
+        <h2 id="eda">EDA</h2>
+        <div class="title">
+          As for EDA it highlights many helpful things as Atticus as the
+          top-rated dog, Highest favorite count dog characteristic is Puppo, and
+          highest retweet count dog characteristic is Doggo. The trends in
+          engagement suggest that unique and engaging content significantly
+          influences social media metrics. Pupper is the most popular dog
+          characteristic. The top five dog names indicate a preference for
+          traditional and popular names. Further analysis could explore the
+          correlation between specific attributes and engagement metrics.
+        </div>
+        <div class="poster">
+          <img src="/assets/popularity.png" alt=" Popularity" class="s">
+          <img src="/assets/retweet_favorite.png" alt="Retweet Favorite" class="s">
+          <img src="/assets/top_five_names.png" alt="Top Five Names" class="s">
+        </div>
+        <h2 id="conclusion">Conclusion</h2>
+        <div class="title">
+          In conclusion, while the assessment and cleaning phases presented
+          significant obstacles, overcoming them was crucial for the project's
+          success. The efforts invested in these stages ensured the reliability
+          and validity of the analysis, ultimately leading to actionable
+          insights and a deeper understanding of the WeRateDogs data.
+        </div>
+      </div>
+    </section>
   </body>
 </html>
