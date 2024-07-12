@@ -97,3 +97,15 @@ section span.h {
 section .title {
   line-height: 1.7;
 }
+
+.poster {
+  padding: var(--padding);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster img {
+  width: 500px;
+  border-radius: 10px;
+}
